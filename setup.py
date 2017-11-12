@@ -8,8 +8,6 @@ from setuptools.command.test import test as TestCommand, Command
 read = lambda filepath: codecs.open(filepath, 'r', 'utf-8').read()
 
 pkgmeta = {
-    '__title__': 'markdownify',
-    '__author__': 'Matthew Tretter',
     '__title__': 'will-markdownify',
     '__author__': 'Steven Skoczen (fork only).  Original author is Matthew Tretter',
     '__version__': '0.4.1',
