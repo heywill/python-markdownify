@@ -5,3 +5,6 @@
 /dist
 /MANIFEST
 /venv
+markdownify.egg-info/*
+will_markdownify.egg-info/*
+src/*

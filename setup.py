@@ -10,6 +10,8 @@ read = lambda filepath: codecs.open(filepath, 'r', 'utf-8').read()
 pkgmeta = {
     '__title__': 'markdownify',
     '__author__': 'Matthew Tretter',
+    '__title__': 'will-markdownify',
+    '__author__': 'Steven Skoczen (fork only).  Original author is Matthew Tretter',
     '__version__': '0.4.1',
 }
 
@@ -57,14 +59,14 @@ class LintCommand(Command):
 
 
 setup(
-    name='markdownify',
-    description='Convert HTML to markdown.',
+    name='will-markdownify',
+    description='TEMPORARY fork, Convert HTML to markdown.',
     long_description=read(os.path.join(os.path.dirname(__file__), 'README.rst')),
     version=pkgmeta['__version__'],
     author=pkgmeta['__author__'],
-    author_email='m@tthewwithanm.com',
-    url='http://github.com/matthewwithanm/python-markdownify',
-    download_url='http://github.com/matthewwithanm/python-markdownify/tarball/master',
+    author_email='steven@heywill.io',
+    url='http://github.com/heywill/python-markdownify',
+    download_url='http://github.com/heywill/python-markdownify/tarball/master',
     packages=find_packages(),
     zip_safe=False,
     include_package_data=True,

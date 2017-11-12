@@ -1,7 +1,11 @@
+This is a *temporary* fork of the [official markdownify](https://github.com/matthewwithanm/python-markdownify) repo to add Python 3 support, and allow pip to keep working with the behavior changes with the --process-dependency-links deprecation.
+
+Once [the python 3 pull request](https://github.com/matthewwithanm/python-markdownify/pull/1) is merged and a new version is released, this package will be deleted.
+
 Installation
 ============
 
-``pip install markdownify``
+``pip install will-markdownify``
 
 
 Usage
